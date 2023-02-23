@@ -1,0 +1,8 @@
+.Tooltip {
+  border: 1px solid #7786d2;
+  margin-right: 20px;
+  position: relative;
+  color: #7786d2;
+  padding: 4px 6px;
+  border-radius: 8px;
+}
