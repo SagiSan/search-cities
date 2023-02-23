@@ -11,18 +11,23 @@ const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
 );
 
-const router = createHashRouter([
+const router = createHashRouter(
+  [
+    {
+      path: "/",
+      element: <App />,
+      children: [
+        { path: "", element: <SearchPage /> },
+        { path: "/search", element: <SearchPage /> },
+        { path: "/search-results", element: <SearchResultsPage /> },
+        // { path: "*", element: <Navigate to="" /> },
+      ],
+    },
+  ],
   {
-    path: "/",
-    element: <App />,
-    children: [
-      { path: "", element: <SearchPage /> },
-      { path: "/search", element: <SearchPage /> },
-      { path: "/search-results", element: <SearchResultsPage /> },
-      // { path: "*", element: <Navigate to="" /> },
-    ],
-  },
-]);
+    basename: "/search-cities",
+  }
+);
 
 root.render(
   <React.StrictMode>
