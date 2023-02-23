@@ -25,7 +25,7 @@ const router = createHashRouter(
     },
   ],
   {
-    basename: "/search-cities",
+    // basename: "/search-cities",
   }
 );
 
