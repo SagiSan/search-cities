@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/SagiSan/search-cities/static/css/main.def1e747.css",
-    "main.js": "/SagiSan/search-cities/static/js/main.becb7e16.js",
+    "main.js": "/SagiSan/search-cities/static/js/main.661e4187.js",
     "static/js/787.dfd922a2.chunk.js": "/SagiSan/search-cities/static/js/787.dfd922a2.chunk.js",
     "index.html": "/SagiSan/search-cities/index.html",
     "main.def1e747.css.map": "/SagiSan/search-cities/static/css/main.def1e747.css.map",
-    "main.becb7e16.js.map": "/SagiSan/search-cities/static/js/main.becb7e16.js.map",
+    "main.661e4187.js.map": "/SagiSan/search-cities/static/js/main.661e4187.js.map",
     "787.dfd922a2.chunk.js.map": "/SagiSan/search-cities/static/js/787.dfd922a2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.def1e747.css",
-    "static/js/main.becb7e16.js"
+    "static/js/main.661e4187.js"
   ]
 }
